@@ -13,7 +13,7 @@ const Questions = ({ title, info }) => {
         </button>
       </header>
 
-      {showinfo ? <p>{info}</p> : ""}
+      {showinfo && <p>{info}</p>}
     </article>
   );
 };
